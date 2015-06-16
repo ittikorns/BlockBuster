@@ -117,8 +117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &189808
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -284,8 +285,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &14546708
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -402,7 +404,39 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 402918, guid: 8291600d7929ae54e83d0d73eaaf01af, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6034130, guid: 8291600d7929ae54e83d0d73eaaf01af, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].x
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6034130, guid: 8291600d7929ae54e83d0d73eaaf01af, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[4].y
+      value: .15625
+      objectReference: {fileID: 0}
+    - target: {fileID: 6034130, guid: 8291600d7929ae54e83d0d73eaaf01af, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].x
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6034130, guid: 8291600d7929ae54e83d0d73eaaf01af, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[5].y
+      value: .15625
+      objectReference: {fileID: 0}
+    - target: {fileID: 6034130, guid: 8291600d7929ae54e83d0d73eaaf01af, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[6].x
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6034130, guid: 8291600d7929ae54e83d0d73eaaf01af, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[6].y
+      value: .15625
+      objectReference: {fileID: 0}
+    - target: {fileID: 6034130, guid: 8291600d7929ae54e83d0d73eaaf01af, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[7].x
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6034130, guid: 8291600d7929ae54e83d0d73eaaf01af, type: 2}
+      propertyPath: m_Poly.m_Paths.Array.data[0].Array.data[7].y
+      value: .15625
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8291600d7929ae54e83d0d73eaaf01af, type: 2}
@@ -451,8 +485,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &23083718
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -525,7 +560,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 444800, guid: b780a24d027ebb748ab4832986434114, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b780a24d027ebb748ab4832986434114, type: 2}
@@ -662,8 +697,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &78569320
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -829,8 +865,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &122653811
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -940,7 +977,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites: []
+  smoke: {fileID: 0}
 --- !u!61 &173977091
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1118,8 +1157,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &211264105
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1197,9 +1237,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &212205708
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1277,9 +1319,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &222087675
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1357,8 +1401,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &222637161
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1436,8 +1481,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &229920553
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1563,8 +1609,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &255411657
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1730,8 +1777,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &273467721
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1853,8 +1901,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &295185395
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1987,9 +2036,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 310871241}
   - 212: {fileID: 310871240}
-  - 61: {fileID: 310871239}
   - 50: {fileID: 310871242}
   - 114: {fileID: 310871243}
+  - 60: {fileID: 310871239}
   m_Layer: 0
   m_Name: Paddle
   m_TagString: Untagged
@@ -1997,18 +2046,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &310871239
-BoxCollider2D:
+--- !u!60 &310871239
+PolygonCollider2D:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6102918, guid: 8291600d7929ae54e83d0d73eaaf01af,
+  m_PrefabParentObject: {fileID: 6034130, guid: 8291600d7929ae54e83d0d73eaaf01af,
     type: 2}
   m_PrefabInternal: {fileID: 19836856}
   m_GameObject: {fileID: 310871238}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1, y: .3125}
-  m_Center: {x: 0, y: 0}
+  m_Poly:
+    m_Paths:
+    - - {x: -.5, y: .15625}
+      - {x: -.5, y: -.15625}
+      - {x: .5, y: -.15625}
+      - {x: .5, y: .15625}
 --- !u!212 &310871240
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2072,6 +2125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c41d9b32e68c941bfbc330b0e25bcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoPlay: 1
 --- !u!1 &312082519
 GameObject:
   m_ObjectHideFlags: 0
@@ -2114,8 +2168,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &312082522
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2193,8 +2248,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &318526685
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2267,7 +2323,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 444800, guid: b780a24d027ebb748ab4832986434114, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b780a24d027ebb748ab4832986434114, type: 2}
@@ -2448,8 +2504,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &392556462
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2615,8 +2672,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &402970867
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2694,9 +2752,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &412335978
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2774,8 +2834,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &415225607
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2941,7 +3002,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites: []
+  smoke: {fileID: 0}
 --- !u!61 &429330268
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3007,9 +3070,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &433546460
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3099,8 +3164,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &440415050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3178,9 +3244,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &446823334
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3302,8 +3370,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &471489689
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3420,7 +3489,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 444800, guid: b780a24d027ebb748ab4832986434114, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b780a24d027ebb748ab4832986434114, type: 2}
@@ -3513,8 +3582,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &508029364
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3636,8 +3706,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &515728347
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3759,9 +3830,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &544925280
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3827,7 +3900,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 0}
   hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &550430207
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3874,7 +3949,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
 --- !u!1 &552929379
 GameObject:
   m_ObjectHideFlags: 0
@@ -3905,9 +3980,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &552929381
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3997,9 +4074,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &554406019
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4121,8 +4200,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &597467991
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4188,9 +4268,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &621982113
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4444,9 +4526,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &693566179
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4694,7 +4778,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 444800, guid: b780a24d027ebb748ab4832986434114, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b780a24d027ebb748ab4832986434114, type: 2}
@@ -4738,7 +4822,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 444800, guid: b780a24d027ebb748ab4832986434114, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b780a24d027ebb748ab4832986434114, type: 2}
@@ -4787,8 +4871,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &751232493
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4866,8 +4951,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &762599573
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4989,8 +5075,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &788701620
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5068,8 +5155,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &808665622
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5235,9 +5323,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &818612203
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5403,8 +5493,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &828129330
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5570,8 +5661,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &863567183
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5649,8 +5741,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &876485267
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5728,8 +5821,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &882005874
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5807,8 +5901,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &890578638
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5886,8 +5981,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &898897706
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6097,8 +6193,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &927224920
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6176,9 +6273,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &928038288
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6353,7 +6452,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites: []
+  smoke: {fileID: 0}
 --- !u!61 &942475951
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6431,8 +6532,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &942991392
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6656,6 +6758,7 @@ GameObject:
   - 50: {fileID: 978375943}
   - 58: {fileID: 978375944}
   - 114: {fileID: 978375945}
+  - 82: {fileID: 978375946}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -6738,6 +6841,65 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5df9576bc692a574799de5dfb1998e87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &978375946
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8222520, guid: c0f70b28e44d6f046a2b478f21813f90,
+    type: 2}
+  m_PrefabInternal: {fileID: 242245840}
+  m_GameObject: {fileID: 978375940}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 8f37648f4904b4aba8062cb0ffdfd1e9, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1001 &981464601
 Prefab:
   m_ObjectHideFlags: 0
@@ -6824,8 +6986,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &981500136
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6947,8 +7110,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &989951056
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7058,9 +7222,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &999151103
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7182,8 +7348,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1081042579
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7261,8 +7428,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1096532511
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7340,7 +7508,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites: []
+  smoke: {fileID: 0}
 --- !u!61 &1102357471
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7770,8 +7940,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1198281192
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7888,7 +8059,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 412606, guid: 2cf2e95769112624e8b00572e9c33922, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2cf2e95769112624e8b00572e9c33922, type: 2}
@@ -7937,8 +8108,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1213032914
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8016,8 +8188,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1214470881
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8271,7 +8444,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites: []
+  smoke: {fileID: 0}
 --- !u!61 &1260420567
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8393,8 +8568,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1269257531
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8512,8 +8688,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1279988347
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8591,8 +8768,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1281581242
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8670,8 +8848,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1309040915
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8793,8 +8972,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1310741549
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8872,8 +9052,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1322093395
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8995,9 +9176,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1371220990
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9075,8 +9258,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1372269046
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9142,8 +9326,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1396726631
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9321,8 +9506,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1465446597
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9712,8 +9898,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1600384593
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9835,7 +10022,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites: []
+  smoke: {fileID: 0}
 --- !u!61 &1620485166
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9913,8 +10102,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1633898315
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10080,8 +10270,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1661529668
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10203,9 +10394,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1700809789
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10371,8 +10564,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1705372737
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10438,9 +10632,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1719353441
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10618,8 +10814,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1751618208
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10694,7 +10891,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
 --- !u!1001 &1765564813
 Prefab:
   m_ObjectHideFlags: 0
@@ -10825,8 +11022,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1770141886
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10948,8 +11146,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1805378636
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11027,8 +11226,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1837576562
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11106,8 +11306,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1839586064
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11229,8 +11430,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1874241637
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11352,8 +11554,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1888083310
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11431,8 +11634,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1891588000
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11554,7 +11758,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites: []
+  smoke: {fileID: 0}
 --- !u!61 &1892049705
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11632,8 +11838,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1905425813
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11799,7 +12006,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites: []
+  smoke: {fileID: 0}
 --- !u!61 &1932836855
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11921,8 +12130,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1943381313
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12000,8 +12210,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1958987306
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12123,7 +12334,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites: []
+  smoke: {fileID: 0}
 --- !u!61 &1963715022
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12252,8 +12465,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1975101585
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12375,8 +12589,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1990002184
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12454,8 +12669,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &1990903631
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12709,7 +12925,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites: []
+  smoke: {fileID: 0}
 --- !u!61 &2027716863
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12787,8 +13005,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &2051402168
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12866,8 +13085,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &2053174573
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12945,9 +13165,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &2059242554
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13025,9 +13247,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
   - {fileID: 21300008, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &2067338348
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13321,7 +13545,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites: []
+  smoke: {fileID: 0}
 --- !u!61 &2089599305
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13399,8 +13625,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &2096180623
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13478,7 +13705,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
   hitSprites: []
+  smoke: {fileID: 0}
 --- !u!61 &2102461411
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13556,8 +13785,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &2111207932
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13635,8 +13865,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!61 &2118569871
 BoxCollider2D:
   m_ObjectHideFlags: 0

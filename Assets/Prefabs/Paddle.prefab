@@ -9,9 +9,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 402918}
   - 212: {fileID: 21202918}
-  - 61: {fileID: 6102918}
   - 50: {fileID: 5002918}
   - 114: {fileID: 11402918}
+  - 60: {fileID: 6034130}
   m_Layer: 0
   m_Name: Paddle
   m_TagString: Untagged
@@ -46,8 +46,8 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
---- !u!61 &6102918
-BoxCollider2D:
+--- !u!60 &6034130
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -55,8 +55,12 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 1, y: .3125}
-  m_Center: {x: 0, y: 0}
+  m_Poly:
+    m_Paths:
+    - - {x: -.5, y: .15625}
+      - {x: -.5, y: -.15625}
+      - {x: .5, y: -.15625}
+      - {x: .5, y: .15625}
 --- !u!114 &11402918
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -68,6 +72,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73c41d9b32e68c941bfbc330b0e25bcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoPlay: 1
 --- !u!212 &21202918
 SpriteRenderer:
   m_ObjectHideFlags: 1

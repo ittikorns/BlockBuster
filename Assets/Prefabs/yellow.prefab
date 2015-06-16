@@ -52,8 +52,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  crack: {fileID: 8300000, guid: 759953d70e09a4d95a29939213acae60, type: 3}
+  hitSprites: []
+  smoke: {fileID: 145560, guid: 4ee290de9bb5647a5832c68a6ed4d90e, type: 2}
 --- !u!212 &21212606
 SpriteRenderer:
   m_ObjectHideFlags: 1

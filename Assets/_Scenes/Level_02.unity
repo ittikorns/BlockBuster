@@ -338,7 +338,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 412606, guid: 5e28d6a2df4af6a40a864f67b8620a67, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e28d6a2df4af6a40a864f67b8620a67, type: 2}
@@ -595,8 +595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a6396f7e387ab48b6f53fed26ea49b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprites:
-  - {fileID: 21300006, guid: a03e572f8742d55459b4db311b01ce50, type: 3}
+  hitSprites: []
 --- !u!61 &1297375124
 BoxCollider2D:
   m_ObjectHideFlags: 0
